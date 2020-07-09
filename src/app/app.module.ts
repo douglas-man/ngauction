@@ -4,14 +4,20 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { SearchComponent } from './search/search.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarComponent,
+    SearchComponent,
+    FooterComponent
   ],
   imports: [
-    BrowserModule,
     NgbModule,
+    BrowserModule,
     AppRoutingModule
   ],
   providers: [],
